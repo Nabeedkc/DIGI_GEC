@@ -9,6 +9,6 @@
     <string name="student_password">Password</string>
     <string name="student_signin">Sign In</string>
     <string name="new_student">New user?</string>
-    <string name="student_signup">Sign Up</string>
+    <string name="student_signup"> Sign Up</string>
     <string name="brand_logo">Digi:GEC</string>
 </resources>
