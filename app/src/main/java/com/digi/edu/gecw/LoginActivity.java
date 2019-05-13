@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity
         loginBtn=findViewById(R.id.login_button);
         username=findViewById(R.id.username_entry);
         password=findViewById(R.id.password_entry);
-        spin=findViewById(R.id.loading_login);
+        //spin=findViewById(R.id.loading_login);
         username.setTypeface(fontstyle);
 
         loginBtn.setOnClickListener(new View.OnClickListener()
@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity
             {
                 if(username.getText().toString().matches(""))
                 {
-                    username.setHintTextColor(getResources().getColor(R.color.Red));
+                    username.setHintTextColor(getResources().getColor(R.color.red_600));
                     username.setHint("Invalid Username");
                 }
                 else
@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity
                 }
                 if(password.getText().toString().matches(""))
                 {
-                    password.setHintTextColor(getResources().getColor(R.color.Red));
+                    password.setHintTextColor(getResources().getColor(R.color.red_600));
                     password.setHint("Invalid Password");
                 }
                 else
