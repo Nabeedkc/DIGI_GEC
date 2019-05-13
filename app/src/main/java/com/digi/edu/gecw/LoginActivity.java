@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity
             {
                 if(username.getText().toString().matches(""))
                 {
-                    username.setHintTextColor(getResources().getColor(R.color.red_600));
+                    username.setHintTextColor(getResources().getColor(R.color.Red));
                     username.setHint("Invalid Username");
                 }
                 else
@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity
                 }
                 if(password.getText().toString().matches(""))
                 {
-                    password.setHintTextColor(getResources().getColor(R.color.red_600));
+                    password.setHintTextColor(getResources().getColor(R.color.Red));
                     password.setHint("Invalid Password");
                 }
                 else
