@@ -58,7 +58,7 @@
                     android:textColor="#ff999999"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="E-mail"/>
+                    android:text="Student Registartio ID"/>
                 <android.support.design.widget.TextInputEditText
                     android:id="@+id/username_entry"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
@@ -118,7 +118,7 @@
                     android:layout_marginBottom="5.0dip">
                     <TextView
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/blue_grey_300"
+                        android:textColor="#ff90a4ae"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="New user? " />
