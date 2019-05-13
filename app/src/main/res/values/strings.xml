@@ -5,7 +5,7 @@
     <string name="login_button">submit</string>
     <string name="version">Version 1.3</string>
     <string name="login_title">Login</string>
-    <string name="student_id">Student Registration ID</string>
+    <string name="student_id">Student Reg ID</string>
     <string name="student_password">Password</string>
     <string name="student_signin">Sign In</string>
     <string name="new_student">New user?</string>
