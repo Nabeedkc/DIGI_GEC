@@ -80,7 +80,7 @@
     </LinearLayout>
 
     <TextView
-        android:textColor="#80AFAFAF"
+        android:textColor="#FFF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
